@@ -61,8 +61,7 @@ public class AgeBean {
 			 System.out.println("SQLException: " + sex.getMessage());
 			 System.out.println("SQLState: " + sex.getSQLState());
 			 System.out.println("SQLState: " + sex.getCause());
-			 //traitment cas erreur
-			 //returnval=true;
+		
 		 }
 		 return(returnval);
 	 }
@@ -118,6 +117,31 @@ public class AgeBean {
 				 //traitement erreur ignoré
 				 System.out.println("Probleme pour enregitsrer");
 			 }
+		 }
+		 return returnval;
+	 }
+	 
+	 //extraction des information d'une personne
+	 public boolean nextAgeReady(){
+		 boolean returnval=false;
+		 try{
+			 if(this.result.next()){
+				 
+				 this.minAge = this.result.getInt("minAge");
+				 this.maxAge = this.result.getInt("maxAge");
+				 this.pointsAge = this.result.getInt("pointsAge");
+				 
+//				 this.idPersonne=this.result.getInt("id");
+//				 this.nomPersonne=this.result.getString("nom");
+//				 this.prenomPersonne=this.result.getString("prenom");
+				 returnval=true;
+			 }
+		 }catch(Exception e){
+			 //valeur invalides si on arrive pas a lire
+			
+			 this.minAge=-1;
+			 this.maxAge=-1;
+			 this.pointsAge = -1;
 		 }
 		 return returnval;
 	 }

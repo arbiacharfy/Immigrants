@@ -9,4 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>AgeControllerServlet</display-name>
+    <servlet-name>AgeControllerServlet</servlet-name>
+    <servlet-class>ca.immigrants.controller.AgeControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AgeControllerServlet</servlet-name>
+    <url-pattern>/AgeControllerServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
