@@ -4,9 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Acceuil Administration</title>
 </head>
 <body>
- please provideeeeeeeeeee
+ 
+<ul>
+		<li><a href="/immigrants/saisirAdministration.jsp">Ajouter</a></li>
+		<li><a href="">Visualiser</a></li>
+		<li><a href="">Modifier</a></li>
+		<li><a href="">Supprimer</a></li>
+		
+	</ul>
+
+
 </body>
 </html>
