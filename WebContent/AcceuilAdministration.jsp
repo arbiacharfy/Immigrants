@@ -7,15 +7,13 @@
 <title>Acceuil Administration</title>
 </head>
 <body>
- 
-<ul>
-		<li><a href="/immigrants/saisirAdministration.jsp">Ajouter</a></li>
+ <ul>
+		<li><a href="/TP1INF3005/saisirAdministration.jsp">Ajouter</a></li>
 		<li><a href="">Visualiser</a></li>
 		<li><a href="">Modifier</a></li>
 		<li><a href="">Supprimer</a></li>
 		
 	</ul>
-
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>immigrants</name>
+	<name>TP1INF3005</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -33,4 +33,16 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/connect_to_mysql.php</name>
+			<type>1</type>
+			<location>C:/MAMP/htdocs/TP1Inf3005/connect_to_mysql.php</location>
+		</link>
+		<link>
+			<name>WebContent/evaluation.php</name>
+			<type>1</type>
+			<location>C:/MAMP/htdocs/TP1Inf3005/evaluation.php</location>
+		</link>
+	</linkedResources>
 </projectDescription>
